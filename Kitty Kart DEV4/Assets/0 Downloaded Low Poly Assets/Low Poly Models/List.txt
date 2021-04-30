@@ -1,0 +1,58 @@
+LOW POLY MODELS 1.3
+
+Decorations
+	FlowerPot x4
+	Vase x6
+Equipments
+	Barbell x2
+	Dumbbell x2
+	Knife x4
+FoodStuffs
+	Apple x2
+	BeverageCan x10
+	Bottle x5
+	Bowl x3
+	Bread x3
+	Carrot x2
+	Cheese x3
+	ChocolateBar x3
+	Cup x10
+	Egg x2
+	Meat x2
+	Plate x3
+Interior
+	Bed x8
+	Chair x6
+	Refrigerator x18
+	Sofa x9
+	Stool x3
+	Table x8
+	TelevisionSet x32
+	Toilet x8
+Miscellaneous
+	Barrel x4
+	Book x16
+	Bucket x10
+	ConcreteBlock x2
+	Crate x5
+	Drum x21
+	Tire x2
+Nature
+	AspenTree x3
+	BaobabTree x3
+	Bush x3
+	CherryBlossomTree x3
+	Cloud x16
+	DeadTree x3
+	Grass x8
+	OakTree x9
+	PalmTree x9
+	PineTree x9
+	Rock x6
+	TreeStump x3
+	WoodLog x3
+Structures
+	Windmill x4
+	WindTurbine x4
+Vehicles
+	CarSedan x10

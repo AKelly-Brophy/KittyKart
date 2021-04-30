@@ -52,10 +52,15 @@
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\Spin.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\ToggleHUD.cs" />
+     <None Include="Assets\0 Downloaded Low Poly Assets\Low Poly Models\List.txt" />
+     <None Include="Assets\0 Downloaded Low Poly Assets\Low Poly Models\Changelog.txt" />
      <None Include="Assets\0 Downloaded Low Poly Assets\Furniture Pack - March 2019\License.txt" />
      <None Include="Assets\0 Downloaded Low Poly Assets\WheelEffects\BetterWheelEffects\Skidmarks.shader" />
+     <None Include="Assets\0 Downloaded Low Poly Assets\Low-Poly_Interior_Pack\readme.txt" />
      <None Include="Assets\0 Downloaded Low Poly Assets\Furniture Pack by @Quaternius\License.txt" />
+     <None Include="Assets\0 Downloaded Low Poly Assets\Low Poly Models\TIPS.txt" />
      <None Include="Assets\0 Downloaded Low Poly Assets\Low Poly Vegetation Pack\Readme.txt" />
+     <None Include="Assets\0 Downloaded Low Poly Assets\Low Poly Models\ReadMe.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -585,31 +590,31 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

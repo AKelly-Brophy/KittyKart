@@ -1,0 +1,14 @@
+Collider
+-You can easily add mesh colliders to any object you want for them to have it:
+1. On the Inspector window of the object you selected, click on "Add Component" button.
+2. Search for "Mesh Collider" and click on it.
+3. Done.
+*To have them collide with other objects that use mesh collider too, enable "Convex" option.
+*For objects with separate component meshes, add colliders to each child instead.
+
+Object origin
+-When placing objects, make sure that the tool handle is placed at the center of selection.
+-For specific object component rotation (car wheels, toilet seats, windmill rotors, etc), use pivot point.
+
+Terrain objects
+-Using Unity Terrain Tree Placing method, you can paint objects throughout the terrain surface. For this purpose, we have made modified version of environment objects with slightly lower poly count and hand-placed pivot point. You can find these in the "TerrainPaint" folder.

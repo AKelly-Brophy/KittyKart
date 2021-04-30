@@ -1,0 +1,23 @@
+LOW POLY MODELS
+CHANGELOG
+
+*v1.0
+-First release
+
+*v1.0.1
+-Fixed car wheels object origin (pivot)
+
+*v1.1
+-Added cloud, grass, and toilet models (26 in total)
+-Updated Wind Farm demo scene
+
+*v1.2
+-Fixed aspen tree leaves material
+-Fixed height of palm trees
+-Added bread, chair, cloud, cheese, egg, meat, stool, table, tire, windmill, and wind turbine models (34 in total)
+-Added terrain paint version of environment objects (decreased triangles, pivot point on base of meshes)
+-Replaced old demo scenes with a new demo scene: Windmills
+
+*v1.3
+-Fixed dead tree 2 scaling
+-Added barbell, bottle, bowl, bucket, chocolate bar, concrete block, cup, dumbbell, flower pot, knife, plate, and vase models (54 in total)
