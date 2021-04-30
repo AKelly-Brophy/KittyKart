@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/2 Mikaela's Own Assets/Scenes/MainGame.unity
+- path: Assets/1 Aisling's Own Assets/Scenes/Track 2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
