@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\0 Downloaded Low Poly Assets\Wheels\Scripts\FreeCamera.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\Drive.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\WinLossMenu.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\WheelEffects\BetterWheelEffects\Skidmarks.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\WheelEffects\BetterWheelEffects\WheelSkid.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\AIController.cs" />

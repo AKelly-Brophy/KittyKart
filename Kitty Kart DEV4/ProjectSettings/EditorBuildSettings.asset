@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/2 Mikaela's Own Assets/Scenes/MainMenu.unity
     guid: e56aa9220a5416b4c901b027816228fd
   - enabled: 1
+    path: Assets/1 Aisling's Own Assets/Scenes/TrackSelect.unity
+    guid: 6bd1aa9a04c988947805039e90a27bcb
+  - enabled: 1
     path: Assets/2 Mikaela's Own Assets/Scenes/MainGame.unity
     guid: 4887388f3b4e34644934c458d4bedea2
+  - enabled: 1
+    path: Assets/1 Aisling's Own Assets/Scenes/Track2.unity
+    guid: 5dce1e5a0772ede4db0ac95f8697bd61
+  - enabled: 1
+    path: Assets/1 Aisling's Own Assets/Scenes/Win Scene.unity
+    guid: 284f5eae77ad15441a885091ec09f608
+  - enabled: 1
+    path: Assets/1 Aisling's Own Assets/Scenes/Lose Scene.unity
+    guid: 070cc087a73777e488b607786010123b
   m_configObjects: {}
