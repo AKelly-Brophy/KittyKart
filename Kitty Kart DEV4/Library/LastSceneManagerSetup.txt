@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/2 Mikaela's Own Assets/Scenes/MainGame.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
