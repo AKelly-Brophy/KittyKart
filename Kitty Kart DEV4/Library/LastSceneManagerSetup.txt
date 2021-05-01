@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1 Aisling's Own Assets/Scenes/Win Scene.unity
+- path: Assets/1 Aisling's Own Assets/Scenes/Lose Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
