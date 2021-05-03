@@ -154,7 +154,7 @@ MonoBehaviour:
   rb: {fileID: 8699891433982304755}
   gearLength: 3
   numGears: 5
-  maxSpeed: 150
+  maxSpeed: 200
   PlayerNamePrefab: {fileID: 831287322812357789, guid: 2f2800038ac98304aaacd1369b23dd54,
     type: 3}
 --- !u!114 &4898562910693644964
@@ -355,6 +355,8 @@ GameObject:
   - component: {fileID: 3077532173939137651}
   - component: {fileID: 8699891433982304755}
   - component: {fileID: 525647706}
+  - component: {fileID: 796516857}
+  - component: {fileID: 796516856}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -421,6 +423,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91be628c491d7c408a532b705642595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &796516857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077532173939137653}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a985912aab7e29b4788ee33b8ce6583e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antiRoll: 5000
+  wheelLFront: {fileID: 3077532172290304567}
+  wheelRFront: {fileID: 3077532172290304520}
+  wheelLBack: {fileID: 3077532172290304521}
+  wheelRBack: {fileID: 3077532172290304522}
+  COM: {fileID: 3077532173939137653}
+--- !u!114 &796516856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077532173939137653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e33580c85de2914a9333d03e78c0e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lap: 0
+  checkPoint: -1
+  timeEntered: 0
+  lastCP: {fileID: 0}
 --- !u!1 &3515395717356858142
 GameObject:
   m_ObjectHideFlags: 0

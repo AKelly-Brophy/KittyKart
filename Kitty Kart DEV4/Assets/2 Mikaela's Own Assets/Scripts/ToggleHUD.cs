@@ -7,6 +7,7 @@ public class ToggleHUD : MonoBehaviour
     public GameObject MiniMap;
     public GameObject RearCamera;
     public GameObject HelpHUD;
+    public GameObject Hints;
 
     // Start is called before the first frame update
     void Awake()
@@ -33,9 +34,10 @@ public class ToggleHUD : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.H))
         {
-            Debug.Log("Helpd Hud toggled");
+            Debug.Log("Helpd HUD toggled");
             // Toggle game object help hud
             HelpHUD.SetActive(!HelpHUD.activeInHierarchy); 
+            Hints.SetActive(!Hints.activeInHierarchy); 
         }
     }
 }

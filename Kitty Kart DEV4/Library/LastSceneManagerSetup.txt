@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1 Aisling's Own Assets/Scenes/Track2.unity
+- path: Assets/1 Aisling's Own Assets/Scenes/Win Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

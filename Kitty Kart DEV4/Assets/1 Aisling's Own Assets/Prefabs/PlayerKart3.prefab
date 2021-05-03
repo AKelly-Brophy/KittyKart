@@ -352,6 +352,8 @@ GameObject:
   - component: {fileID: 7944063498946194009}
   - component: {fileID: 4339031010618726361}
   - component: {fileID: 159981739}
+  - component: {fileID: 1284131479}
+  - component: {fileID: 1284131478}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -418,6 +420,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91be628c491d7c408a532b705642595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1284131479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944063498946194015}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a985912aab7e29b4788ee33b8ce6583e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antiRoll: 5000
+  wheelLFront: {fileID: 7944063499378678813}
+  wheelRFront: {fileID: 7944063499378678818}
+  wheelLBack: {fileID: 7944063499378678819}
+  wheelRBack: {fileID: 7944063499378678816}
+  COM: {fileID: 7944063498946194015}
+--- !u!114 &1284131478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944063498946194015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e33580c85de2914a9333d03e78c0e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lap: 0
+  checkPoint: -1
+  timeEntered: 0
+  lastCP: {fileID: 0}
 --- !u!1 &7944063499637396428
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +516,7 @@ MonoBehaviour:
   rb: {fileID: 4339031010618726361}
   gearLength: 3
   numGears: 5
-  maxSpeed: 150
+  maxSpeed: 200
   PlayerNamePrefab: {fileID: 831287322812357789, guid: 2f2800038ac98304aaacd1369b23dd54,
     type: 3}
 --- !u!114 &8921444218894031164

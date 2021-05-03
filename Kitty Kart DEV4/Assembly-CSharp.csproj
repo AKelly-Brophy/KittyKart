@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a0466ed6-62e3-b4e7-10e6-5f48c9bebeaa}</ProjectGuid>
+    <ProjectGuid>{228dd8d3-c3d2-437b-95f8-eeffb35927ed}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -37,7 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\0 Downloaded Low Poly Assets\Wheels\Scripts\FreeCamera.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\AntiRollBar.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\Drive.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\Leaderboard.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\NumberCheckPoints.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\RaceMonitor.cs" />
+     <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\TrackSelectScreen.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\Scripts\WinLossMenu.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\WheelEffects\BetterWheelEffects\Skidmarks.cs" />
      <Compile Include="Assets\1 Aisling&apos;s Own Assets\WheelEffects\BetterWheelEffects\WheelSkid.cs" />
@@ -48,6 +54,7 @@
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\FlipKart.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\LaunchManager.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\NameUIController.cs" />
+     <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\OptionsController.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\SelectKart.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\SmoothFollow.cs" />
      <Compile Include="Assets\2 Mikaela&apos;s Own Assets\Scripts\Spawn.cs" />
@@ -591,31 +598,31 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/Aisling/Documents/Unity Projects/KittyKart/Kitty Kart DEV4/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/Aisling/Downloads/Kitty Kart DEV5/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
